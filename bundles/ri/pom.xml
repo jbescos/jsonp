@@ -45,7 +45,7 @@
     <parent>
         <groupId>org.glassfish</groupId>
         <artifactId>json-bundles</artifactId>
-        <version>1.0.4-SNAPSHOT</version>
+        <version>1.0.5</version>
     </parent>
 
     <artifactId>json-ri-bundle</artifactId>
@@ -99,7 +99,7 @@
                         <id>make-assembly</id> <!-- this is used for inheritance merges -->
                         <phase>package</phase> <!-- append to the packaging phase. -->
                         <goals>
-                            <goal>attached</goal> <!-- goals == mojos -->
+                            <goal>single</goal> <!-- goals == mojos -->
                         </goals>
                     </execution>
                 </executions>
